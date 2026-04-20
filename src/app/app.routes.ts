@@ -4,7 +4,8 @@ import { Calculate } from './pages/calculate/calculate';
 import { About } from './pages/about/about';
 
 export const routes: Routes = [
-    { path: "", component: Home },
+    { path: "home", component: Home },
     { path: "calculate", component: Calculate },
-    { path: "about", component: About }
+    { path: "about", component: About },
+    { path: "", redirectTo: "home", pathMatch: "full"}
 ];
