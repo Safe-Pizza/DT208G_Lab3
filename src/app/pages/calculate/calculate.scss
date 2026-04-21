@@ -1,0 +1,32 @@
+@use '../../../css/variables';
+@use 'sass:color';
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+button {
+    @include variables.button;
+}
+
+button:hover {
+    background-color: variables.$hover-color
+}
+
+button:active {
+    background-color: color.scale(variables.$hover-color, $lightness: -20%);
+}
+
+span {
+    text-shadow: variables.$hover-color 1px 0 10px;
+}
+
+.result {
+    font-size: 2em;
+}
