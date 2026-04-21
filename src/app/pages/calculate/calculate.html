@@ -1,1 +1,24 @@
 <h2>Mått</h2>
+<p>Här kan du konvertera till olika enheter</p>
+<div>
+    <h3>Meter & Fot</h3>
+
+    <label for="numLenght">Skriv in meter eller fot: </label><br>
+    <input type="number" id="numLenght" [(ngModel)]="numLenght"><br>
+    <button (click)="calcFotToMeter()">Till Meter</button>
+    <button (click)="calcMeterToFot()">Till Fot</button>
+</div>
+<div>
+    <p>Resultat: {{ resultLenght }} {{ unitLength }}</p>
+</div>
+<div>
+    <h3>Celsius & Farenheit</h3>
+
+    <label for="numTemp">Skriv in celsius eller farenheit: </label><br>
+    <input type="number" id="numTemp" [(ngModel)]="numTemp"><br>
+    <button (click)="calcFarToCelsius()">Till Celsius</button>
+    <button (click)="calcCelToFarenheit()">Till Farenheit</button>
+</div>
+<div>
+    <p>Resultat:  {{ resultTemp }} {{ unitTemp }}</p>
+</div>
