@@ -1,6 +1,26 @@
 @use '../../../css/variables';
 @use 'sass:color';
 
+img {
+    width: 100%;
+}
+
+.bg-image {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    bottom: 70%;
+    right: 15%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: variables.$hover-color;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
 input {
     box-sizing: border-box;
     width: 100%;
@@ -29,4 +49,12 @@ span {
 
 .result {
     font-size: 2em;
+}
+
+@media screen and (max-width: 1000px) {
+    .text {
+        bottom: 30%;
+        left: 10%;
+        font-size: 1em;
+    }
 }
