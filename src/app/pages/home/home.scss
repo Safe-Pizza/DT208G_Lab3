@@ -1,0 +1,36 @@
+@use '../../../css/variables';
+
+.color-scheme {
+    display: flex;
+    flex-direction: row;
+}
+
+.color-scheme div {
+    margin-right: 10px;
+    padding: 1em;
+}
+
+#color-0D0D0D {
+    background-color: variables.$bg-color;
+}
+
+#color-414141 {
+    background-color: variables.$main-color;
+    border: 1px solid black;
+}
+
+#color-FFFFFF {
+    background-color: variables.$font-color;
+}
+
+#color-00FF85 {
+    background-color: variables.$heading-color;
+}
+
+#color-1E90FF {
+    background-color: variables.$accent-color;
+}
+
+#color-FF0099 {
+    background-color: variables.$hover-color;
+}

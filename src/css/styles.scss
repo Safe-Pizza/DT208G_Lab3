@@ -24,6 +24,12 @@ main {
     background-color: variables.$main-color;
 }
 
+main {
+    h1, h2, h3, h4 {
+        color: variables.$heading-color;
+    }
+}
+
 @media screen and (max-width: 600px) {
     body {
         font-size: 0.8em;
