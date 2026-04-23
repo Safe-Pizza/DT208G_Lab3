@@ -2,7 +2,7 @@
 Detta är en laboration i _Webbutveckingsprogrammet_ på Mittuniveristetet.
 
 ## Länk till webbplats
-[Min webbplats]()
+[Min webbplats](https://hali-lab3angular.netlify.app/home)
 
 ## Syfte
 Syftet med denna laboration är att få grunläggande förståelse för Angular som ramverk för att skapa dynamiska, responsiva webbplatser. Förstår hur en Angular-applikation skapas, byggs och hur de olika delarna samverkar. Kunna använda CLI-verktyg för att testköra och publicera optimerade filer.
