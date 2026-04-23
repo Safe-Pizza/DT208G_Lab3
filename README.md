@@ -1,59 +1,40 @@
-# DT208GLab3
+# Laboration 3, DT208G Angular I
+Detta är en laboration i _Webbutveckingsprogrammet_ på Mittuniveristetet.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+## Länk till webbplats
+[Min webbplats]()
 
-## Development server
+## Syfte
+Syftet med denna laboration är att få grunläggande förståelse för Angular som ramverk för att skapa dynamiska, responsiva webbplatser. Förstår hur en Angular-applikation skapas, byggs och hur de olika delarna samverkar. Kunna använda CLI-verktyg för att testköra och publicera optimerade filer.
 
-To start a local development server, run:
+## Uppgift
+Skapa en webbplats som bygger på Angular som har ett välfungerande navigationssystem och har god responsivitet. Minst tre undersidor ska finnas på webbplatsen, det ska finnas minst en bild och en av undersidorna ska ha funktion för att konvertera värden mellan olika enheter (meter till fot och celsius till farenheit och tillbaka). Uppgiften ska lösas med Angulars komponenter, databinding och routing-modul.
 
-```bash
-ng serve
-```
+## Installation
+Vill du själv testa detta Angular-projekt kan du följa stegen nedan:
+OBS! Du måste ha node.js, npm och Angular-CLI för att installera och hantera Angular-projekt.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+1. Klona repot
+    ```sh
+    git clone https://github.com/safe-pizza/DT208G_Lab3.git
+    ```
 
-## Code scaffolding
+2. Gå in i projektmappen
+    ```sh
+    cd DT208G_Lab3
+    ```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+3. Installera
+    ```sh
+    npm install
+    ```
 
-```bash
-ng generate component component-name
-```
+4. Starta en utvecklingsserver
+    ```sh
+    ng serve
+    ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Nu finns projektet tillgängligt för dig att köra lokalt på din dator via localhost.
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Kontakt
+ Vill du komma i kontakt med mig?
